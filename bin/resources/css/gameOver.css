@@ -1,0 +1,46 @@
+.vbox-buttonsbox {
+    -fx-alignment: center;
+    -fx-padding: 10px;
+        padding: 10px;
+}
+
+.vbox-content {
+    -fx-alignment: center;
+    -fx-padding: 20px;
+        padding: 20px;
+}
+
+.borderpane-root {
+    -fx-background-color: #0a0e19;
+        background-color: #0a0e19;
+}
+
+.label-message {
+    -fx-background-color: white;
+        background-color: white;
+    -fx-background-radius: 15px;
+    -fx-padding: 5px;
+        padding: 5px;
+    -fx-font-size: 35px;
+        font-size: 35px;
+    -fx-text-fill: black;
+    -fx-graphic-text-gap: 10px;
+}
+
+.button {
+    -fx-font-size: 16px;
+        font-size: 16px;
+    -fx-padding: 10px 20px;
+        padding: 10px 20px;
+    -fx-background-color: #4CAF50;
+        background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+        border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+        background-color: #45a049;
+}

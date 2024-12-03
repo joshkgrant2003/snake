@@ -1,0 +1,85 @@
+.vbox-layout {
+    -fx-padding: 20px;
+        padding: 20px;
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+    -fx-background-color: #0a0e19;
+        background-color: #0a0e19;
+}
+
+.settings-label {
+    -fx-font-size: 16px;
+        font-size: 16px;
+    -fx-font-weight: bold;
+        font-weight: bold;
+    -fx-font-family: "Arial";
+        font-family: "Ariel";
+    -fx-text-fill: #e4fe74;
+    -fx-min-width: 150px;
+        min-width: 150px;
+}
+
+.combo-box {
+    -fx-background-color: #2d3436;
+        background-color: #2d3436;
+    -fx-border-color: #636e72;
+        border-color: #636e72;
+    -fx-border-radius: 5px;
+        border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+        padding: 5px;
+    -fx-font-family: "Arial";
+        font-family: "Ariel";
+    -fx-font-size: 14px;
+        font-size: 14px;
+    -fx-text-fill: #e4fe74;
+    -fx-pref-width: 200px;
+}
+
+/* styling popup list */
+.combo-box .list-cell {
+    -fx-background-color: #2d3436;
+        background-color: #2d3436;
+    -fx-text-fill: #e4fe74;
+    -fx-font-family: "Arial";
+        font-family: "Ariel";
+    -fx-font-size: 14px;
+        font-size: 14px;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #636e72;
+        background-color: #636e72;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #636e72;
+        background-color: #636e72;
+    -fx-padding: 3px;
+        padding: 3px;
+    -fx-shape: "M 0 0 L 5 0 L 2.5 3 Z";  /* custom arrow shape */
+}
+
+.hbox-settings {
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+.button {
+    -fx-font-size: 16px;
+        font-size: 16px;
+    -fx-padding: 10px 20px;
+        padding: 10px 20px;
+    -fx-background-color: #4CAF50;
+        background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+        border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+        background-color: #45a049;
+}

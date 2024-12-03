@@ -1,0 +1,14 @@
+.vbox-root {
+    -fx-background-color: #4CAF50;
+        background-color: #4CAF50;
+    -fx-alignment: center;
+}
+
+.score-label {
+    -fx-font-size: 30px;
+        font-size: 30px;
+    -fx-text-fill: white;
+    -fx-alignment: center-right;
+    -fx-padding: 10px;
+        padding: 10px;
+}

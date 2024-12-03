@@ -1,0 +1,49 @@
+.vbox-layout {
+    -fx-background-color: #202020;
+        background-color: #202020;
+    -fx-padding: 20px;
+        padding: 20px;
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+.label-prompt {
+    -fx-font-size: 16px;
+        font-size: 16px;
+    -fx-font-family: 'Arial';
+        font-family: 'Arial';
+    -fx-text-fill: #ffffff;
+}
+
+.textfield-username {
+    -fx-font-size: 14px;
+        font-size: 14px;
+    -fx-padding: 5px;
+        padding: 5px;
+    -fx-border-color: #aaaaaa;
+        border-color: #aaaaaa;
+    -fx-border-radius: 5px;
+        border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: #333333;
+        background-color: #333333;
+    -fx-text-fill: #ffffff;
+}
+
+.button {
+    -fx-font-size: 14px;
+        font-size: 14px;
+    -fx-background-color: #007acc;
+        background-color: #007acc;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 8px 16px;
+        padding: 8px 16px;
+    -fx-border-radius: 5px;
+        border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #005f99;
+        background-color: #005f99;
+}
